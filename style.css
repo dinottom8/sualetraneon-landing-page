@@ -25,6 +25,7 @@ header {
     position: fixed;
     top: 35px;
     border: 1pt solid rgba(255, 255, 255, 0.11);
+    z-index: 999;
 }
 
 #listaCabecalho {
@@ -99,4 +100,65 @@ header {
     height: 162px;
     line-height: 100px;
     text-align: center;
+}
+
+#paginaServicos {
+    margin-top: 350px;
+    margin-left: 130px;
+    gap: 140px;
+    display: flex;
+}
+
+.cardServico {
+    width: 305px;
+}
+
+.fotoServico {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.tituloServico {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 35px;
+    line-height: 40px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.descricaoServico {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.swiper {
+    width: 1600px;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide:hover {
+    transform: scale(105%);
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
